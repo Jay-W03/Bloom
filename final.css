@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400px;
+  background-color: #FFF5F0
+}
+
+header {
+  background-color: #d0dfe1ff;
+}
+
+.textboxformat {
+  border: 1px solid #000;
+  background: white;
+  width: 800px;
+  height: 80px;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px
+}
+
+.textboxformat1 {
+  border: 1px solid #000;
+  background: white;
+  width: 800px;
+  height: 55px;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 20px
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container1 {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  padding-left: 2px 0;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 23px;
+  padding-bottom: 20px;
+
+  position: sticky;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px
+}
+
+nav a:hover {
+
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  color:#ffd1dc;
+}
+.commentBox {
+  padding:1%;
+  width: 100%;
+  height: 105px;
+  border: 1px solid #000;
+  background-color: rgb(255,232,142);
+  margin-bottom: 10px;
+}
+
+.leftPanelImg {
+  width:10%;
+  float:left;
+}
+
+.leftPanelImg img{
+  border-radius: 100%;
+}
+
+.rightPanel {
+  width:85%;
+  float:left;
+  margin-left:1%
+}
+
+.clear {
+  clear:both;
+}
+
+.form {
+  padding: 15px;
+  border: 1px solid rgb(97, 97, 97);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form input[type="text"], .form textarea, .form input[type="date"] {
+  border: 1px solid rgb(97, 97, 97);
+  padding: 2px;
+  width: 300px;
+}
+
+#formfont {
+  font-size: 15px;
+  font-family: times, sans-serif;
+}
+
+a {
+  color:inherit;
+  text-decoration: inherit;
+}
